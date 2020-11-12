@@ -46,25 +46,25 @@ Here is a high level overview of the process (some or all of which you may alrea
     tar xjvf setup-373.tar.bz2 -C ~/
     chsh --shell /bin/zsh
 ```
-        - this will install a decent amount of packages, as well as update things to the most recent -- fairly large download!
-        - this pulls down an archive file with all the necessary files for environment I'd recommend you use, as well as labs and homeworks for which you'll be using this VM.
-    - You will be instructed later if you will need to modify this VM or create additional, smaller VMs.
+- this will install a decent amount of packages, as well as update things to the most recent -- fairly large download!
+- this pulls down an archive file with all the necessary files for environment I'd recommend you use, as well as labs and homeworks for which you'll be using this VM.
+- You will be instructed later if you will need to modify this VM or create additional, smaller VMs.
 
 Some important notes regarding the terminal environment I had you pull down:
 
-    - It switches your shell to zsh rather than bash -- this isn't required, though is recommended, and will be assumed if you ask me for help with something related to the VM.
-    - Every shell you open exists within a tmux session. This means it is
-        - recoverable
-        - splittable
-        - configurable
-        - informative
-    - Ctrl-T is the chord key -- Ctrl-T, a means hit control-t, release it, then hit a
-    - Within tmux, you can split your window into panes with Ctrl-T, \ for a side by side split, and Ctrl-T, - for a top/bottom split.
-    - You can create new windows with Ctrl-T, c and rotate between them with Ctrl-T, n and Ctrl-T, p
-    - Copy and paste is a little more complicated than you may be used to
-        - to copy text within a terminal session, highlight it
-        - to paste that text, hit Ctrl-T, ]
-        - to paste text copied into the system clipboard (from outside the terminal), hold shift and middle click your mouse
-        - to copy terminal text into the system clipboard, hold shift while you highlight it
-    - Scrolling doesn't use the scroll bar, but rather, uses the mouse. Just scroll up or down as you desire with your mouse.
+- It switches your shell to zsh rather than bash -- this isn't required, though is recommended, and will be assumed if you ask me for help with something related to the VM.
+- Every shell you open exists within a tmux session. This means it is
+    - recoverable
+    - splittable
+    - configurable
+    - informative
+- Ctrl-T is the chord key -- Ctrl-T, a means hit control-t, release it, then hit a
+- Within tmux, you can split your window into panes with Ctrl-T, \ for a side by side split, and Ctrl-T, - for a top/bottom split.
+- You can create new windows with Ctrl-T, c and rotate between them with Ctrl-T, n and Ctrl-T, p
+- Copy and paste is a little more complicated than you may be used to
+    - to copy text within a terminal session, highlight it
+    - to paste that text, hit Ctrl-T, ]
+    - to paste text copied into the system clipboard (from outside the terminal), hold shift and middle click your mouse
+    - to copy terminal text into the system clipboard, hold shift while you highlight it
+- Scrolling doesn't use the scroll bar, but rather, uses the mouse. Just scroll up or down as you desire with your mouse.
 
