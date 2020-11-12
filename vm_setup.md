@@ -7,22 +7,22 @@ For parts  of this class, we will be making use a Kali VM. In a departure from w
 
 Here is a high level overview of the process (some or all of which you may already have done):
 
-    1. Using the COE's software install pageLinks to an external site., install one of
-        - VMWare Fusion (for macOS)
-        - VMWare Workstation (for Windows)
-    1. Download an appropriate image from the Kali downloads page (Links to an external site.)
-        - You really should get a 64-bit version
-        - I use the 2020.2 installer, then install Cinnamon desktop.
-        - There are pre-built VM appliances available for VMWare, VirtualBox, and Hyper-V, if you would prefer to go that route
-    1. Create a new VM, point it to your downloaded ISO file, and run through the install process
-        - If you run into errors about virtualization extensions needing to be enabled, you'll need to do this in the BIOS. 
-          This is OEM/model specific, and you'll have to figure this one out. Searching your model name plus VTx or virtualization is 
-          typically a good starting point.
-        - I would recommend at least 4GB of RAM -- 8GB would be better
-        - I would also suggest at least 2 CPU cores
-        - I would suggest at least a 60GB hard drive -- it uses on-demand allocation, so it won't use all 60GB at once.
-    1. Make sure to create your user account, rather than running as root (kali has changed a bit)
-    1. Please run this script to install all necessary packages and files for the course (you'll need to create the file on your VM).
+1. Using the COE's software install pageLinks to an external site., install one of
+    - VMWare Fusion (for macOS)
+    - VMWare Workstation (for Windows)
+1. Download an appropriate image from the Kali downloads page (Links to an external site.)
+    - You really should get a 64-bit version
+    - I use the 2020.2 installer, then install Cinnamon desktop.
+    - There are pre-built VM appliances available for VMWare, VirtualBox, and Hyper-V, if you would prefer to go that route
+1. Create a new VM, point it to your downloaded ISO file, and run through the install process
+    - If you run into errors about virtualization extensions needing to be enabled, you'll need to do this in the BIOS. 
+      This is OEM/model specific, and you'll have to figure this one out. Searching your model name plus VTx or virtualization is 
+      typically a good starting point.
+    - I would recommend at least 4GB of RAM -- 8GB would be better
+    - I would also suggest at least 2 CPU cores
+    - I would suggest at least a 60GB hard drive -- it uses on-demand allocation, so it won't use all 60GB at once.
+1. Make sure to create your user account, rather than running as root (kali has changed a bit)
+1. Please run this script to install all necessary packages and files for the course (you'll need to create the file on your VM).
      
 ```bash
     #!/bin/bash
