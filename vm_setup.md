@@ -15,7 +15,9 @@ Here is a high level overview of the process (some or all of which you may alrea
         - I use the 2020.2 installer, then install Cinnamon desktop.
         - There are pre-built VM appliances available for VMWare, VirtualBox, and Hyper-V, if you would prefer to go that route
     - Create a new VM, point it to your downloaded ISO file, and run through the install process
-        - If you run into errors about virtualization extensions needing to be enabled, you'll need to do this in the BIOS. This is OEM/model specific, and you'll have to figure this one out. Searching your model name plus VTx or virtualization is typically a good starting point.
+        - If you run into errors about virtualization extensions needing to be enabled, you'll need to do this in the BIOS. 
+        This is OEM/model specific, and you'll have to figure this one out. Searching your model name plus VTx or virtualization is 
+        typically a good starting point.
         - I would recommend at least 4GB of RAM -- 8GB would be better
         - I would also suggest at least 2 CPU cores
         - I would suggest at least a 60GB hard drive -- it uses on-demand allocation, so it won't use all 60GB at once.
